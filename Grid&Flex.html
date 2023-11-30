@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+    
+
+    .container{
+      width: 748px;
+      height: 748;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      background-color: black;
+    }
+    .first{
+      background-color: #E72F24;
+      width: 320px;
+      height: 414px;
+
+    }
+    .second{
+      background-color:#F0F1EC ;
+    
+      grid-column:span 3;
+
+    }
+    .tirth{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+
+    }
+    .forth{
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      grid-row: span 2;
+
+    }
+    .fifth{
+      background-color:#004592 ;
+      border-bottom: 10px solid #000
+
+    }
+    .sixth{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+
+    }
+    .seventh{
+      background-color: #F0F1EC;
+      
+
+    }
+    .eighth{
+      background-color: #F9D01E;
+     
+
+    }
+    .ninth{
+      background-color: #232629;
+
+    }
+    span{
+      text-align: justify;
+      color: #EA906C;
+      font-family: 'Playfair Display', serif;
+      background-color: #2B2A4C;
+      border: 1px solid#EA906C;
+      padding: 5px;
+      margin-left:10px;
+      margin-top: 715px;
+    }
+   
+   
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    
+    <div class="first  box"></div>
+    <div class="second  box"></div>
+    <div class="tirth  box"></div>
+    <div class="forth  box"></div>
+    <div class="fifth  box"></div>
+    <div class="sixth  box"></div>
+    <div class="seventh  box"></div>
+    <div class="eighth  box"></div>
+    <div class="ninth  box"></div>
+  </div>
+  <span>
+    by Făgăraș  Darius  Marian
+  </span>
+</body>
+
+</html>

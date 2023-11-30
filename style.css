@@ -1,0 +1,54 @@
+body{
+    background-color: #FFC996;
+}
+
+.row{
+    background-color: #EEE2DE;
+}
+.project-span{
+    color: #B31312;
+}
+.bootstrap-span{
+color: #B31312;
+}
+.grid-flex{
+    color: #B31312;
+}
+.mondrian-span{
+   color: #B31312;
+}
+ul{
+    list-style: none;
+}
+.about-me{
+    color:#2B2A4C
+}
+#about-me-container{
+    background-color: #EEE2DE;
+}
+.graduation{
+    
+    background-color: #EEE2DE;
+}
+.title-graduation{
+    color: #B31312;
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+.university{
+    color: #2B2A4C;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+.faculty{
+    display: flex;
+    justify-content: center;
+ margin-bottom: 100px;
+}
+.Grid-flex-color{
+    color: #2B2A4C;
+}
